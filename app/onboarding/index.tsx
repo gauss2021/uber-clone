@@ -11,7 +11,7 @@ export default function Onboading() {
         alignItems: "center",
       }}
     >
-      <Text>First Screen</Text>
+      <Text className="text-red-500">First Screen</Text>
     </SafeAreaView>
   );
 }
