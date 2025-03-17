@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "uber-clone",
+    "name": "UberClone",
     "slug": "uber-clone",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,8 +13,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/splash.png",
+        "backgroundColor": "#FFF"
       }
     },
     "web": {
@@ -27,10 +27,9 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "image": "./assets/images/splash.png",
+          "resizeMode": "cover",
+          "backgroundColor": "#FFF"
         }
       ]
     ],
